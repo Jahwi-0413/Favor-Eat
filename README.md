@@ -147,107 +147,121 @@
 
 ### 가이드 페이지
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/01_guide.gif" height=100% />
-  <img src="./upload/01_guide-mobile.gif" height=100%/>
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/01_guide.gif" height=300px/>
+  <img src="./upload/01_guide-mobile.gif" height=300px/>
 </div>
 
 ▲ 서비스를 소개하는 가이드 페이지
 
+<br/>
+
 ### 초기 취향 파악 페이지
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/02_character_select.png" height=100% />
-  <img src="./upload/02_character_select-mobile.png" height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/02_character_select.png" height=300px />
+  <img src="./upload/02_character_select-mobile.png" height=300px />
 </div>
 
 ▲ 같이 맛 평가를 할 캐릭터 선택 페이지
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/03_initial_evaluations.png" height=100% />
-  <img src="./upload/03_initial_evaluations-mobile.png" height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/03_initial_evaluations.png" height=300px />
+  <img src="./upload/03_initial_evaluations-mobile.png" height=300px />
 </div>
 
 ▲ 취향 파악을 위해 맛을 평가하는 페이지
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/04_initial_input.png" height=100% />
-  <img src="./upload/04_initial_input-mobile.png"  height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/04_initial_input.png" height=300px />
+  <img src="./upload/04_initial_input-mobile.png"  height=300px />
 </div>
 
 ▲ 맛을 평가하는 화면
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/05_end_initial_evaluations.png" height=100% />
-  <img src="./upload/05_end_initial_evaluations-mobile.png" height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/05_end_initial_evaluations.png" height=300px />
+  <img src="./upload/05_end_initial_evaluations-mobile.png" height=300px />
 </div>
 
 ▲ 5개의 음식을 평가하면 '맛 평가 종료하기' 버튼이 생긴다.
 
+<br/>
+
 ### 메인 페이지
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/06_main.gif" height=100%/>
-  <img src="./upload/06_main.png" height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/06_main.gif" height=300px/>
+  <img src="./upload/06_main.png" height=100px />
 </div>
 
 ▲ 추천 받은 음식을 볼 수 있는 메인 페이지
 
+<br/>
+
 ### 음식 페이지
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/07_recipe.gif" height=100% />
-  <img src="./upload/07_recipe-mobile.gif" height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/07_recipe.gif" height=300px />
+  <img src="./upload/07_recipe-mobile.gif" height=300px />
 </div>
 
 ▲ 음식의 상세정보를 확인할 수 있는 음식 페이지
 
+<br/>
+
 ### 햄버거 바
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/08_hambuger_bar.png" height=100%/>
-  <img src="./upload/08_hambuger_bar-mobile.png" height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/08_hambuger_bar.png" height=300px/>
+  <img src="./upload/08_hambuger_bar-mobile.png" height=300px />
 </div>
 
 ▲ 메뉴 이동을 위한 햄버거 바
 
+<br/>
+
 ### 마이페이지
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/09_mypage.png" height=100%/>
-  <img src="./upload/09_mypage-mobile.png" height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/09_mypage.png" height=300px/>
+  <img src="./upload/09_mypage-mobile.png" height=300px />
 </div>
 
 ▲ 내가 선호하는 맛 정보와 즐겨찾기한 레시피를 볼 수 있는 마이 페이지
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/10_more.png" style="display: inline-block" height=100%/>
-  <img src="./upload/10_more-mobile.png" style="display: inline-block" height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/10_more.png" style="display: inline-block" height=300px/>
+  <img src="./upload/10_more-mobile.png" style="display: inline-block" height=300px />
 </div>
 
 ▲ '더보기'버튼을 클릭해 즐겨찾기한 레시피 목록을 볼 수 있다.
 
+<br/>
+
 ### 식단 일기 페이지
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/11_diary.gif" style="display: inline-block" height=100%/>
-  <img src="./upload/11_diary-mobile.gif" style="display: inline-block" height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/11_diary.gif" style="display: inline-block" height=300px/>
+  <img src="./upload/11_diary-mobile.gif" style="display: inline-block" height=300px />
 </div>
 
 ▲ 먹은 음식과 그 날의 감정을 기록할 수 있는 식단 일기 페이지
 
+<br/>
+
 ### 으른 입맛 테스트 페이지
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/12_adult_taste.png" height=100%/>
-  <img src="./upload/12_adult_taste-mobile.png" height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/12_adult_taste.png" height=300px/>
+  <img src="./upload/12_adult_taste-mobile.png" height=300px />
 </div>
 
 ▲ 입맛 연령 측정을 위한 설문 화면
 
-<div style="display : grid; grid-template-columns : 3fr 1fr; grid-template-rows : 1fr; gap:10px">
-  <img src="./upload/13_adult_taste_result.png" height=100%/>
-  <img src="./upload/13_adult_taste_result-mobile.png" height=100% />
+<div style="display : flex; flex-direction : row; gap:10px;">
+  <img src="./upload/13_adult_taste_result.png" height=300px/>
+  <img src="./upload/13_adult_taste_result-mobile.png" height=300px />
 </div>
 
 ▲ 결과 화면
@@ -258,6 +272,7 @@
 
 <br />
 <br />
+
 
 ## 실행방법
 
