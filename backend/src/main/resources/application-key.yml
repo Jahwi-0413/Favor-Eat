@@ -1,6 +1,6 @@
 kakao-client-id: 3f660847d40155171d5d2300672e2f73
 kakao-client-secret: w50qQUwy9BMIeHyPMQ3WSORVTYivZU4S
-jwt-secret : dhsmfanjajrwl
+jwt-secret: dhsmfanjajrwl
 
 --- # test 설정
 spring:
@@ -8,8 +8,8 @@ spring:
     activate:
       on-profile: "key-test"
 
-mysql-test-username : ssafy
-mysql-test-password : ssafy
+mysql-test-username: name
+mysql-test-password: password
 
 --- # dev 설정
 spring:
@@ -17,5 +17,5 @@ spring:
     activate:
       on-profile: "key-prod"
 
-mysql-prod-username : ssafy
-mysql-prod-password : "qX&=Kg5,efRFSTQ7o"
+mysql-prod-username: name
+mysql-prod-password: "password"

@@ -139,7 +139,7 @@ public class UsersService {
 
         RestTemplate rt = new RestTemplate();
         ResponseEntity<Object> response = rt.exchange(
-            "http://j8d108.p.ssafy.io:6000/predict",
+            "url/predict",
             HttpMethod.POST,
             entity,
             Object.class

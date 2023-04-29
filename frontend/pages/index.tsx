@@ -17,21 +17,20 @@ export default function Home() {
 
     // 이곳에도 아까 위에서 앱 등록할때 받은 'firebaseConfig' 값을 넣어주세요.
     const firebaseApp = initializeApp({
-      apiKey: "AIzaSyBkvLz36_zD93UwXx4wf8P101EeX1pDLyQ",
+      apiKey: "key",
       authDomain: "test-pwa-7907d.firebaseapp.com",
       projectId: "test-pwa-7907d",
       storageBucket: "test-pwa-7907d.appspot.com",
-      messagingSenderId: "11003173258",
-      appId: "1:11003173258:web:c4468671141151e5141073",
-      measurementId: "G-H66VD1BMY3",
+      messagingSenderId: "id",
+      appId: "appid",
+      measurementId: "id",
     });
 
     const messaging = getMessaging(firebaseApp);
 
     // 이곳 vapidKey 값으로 아까 토큰에서 사용한다고 했던 인증서 키 값을 넣어주세요.
     getToken(messaging, {
-      vapidKey:
-        "BBmsINcSMQVkwjV0vncMSWz37t9l0ckye4rlOlwWDvONtHXX97k-VFFJUf6Sgukq5X9E2OFTQpP0De-_2rw72Yg",
+      vapidKey: "key",
     })
       .then((currentToken) => {
         if (currentToken) {

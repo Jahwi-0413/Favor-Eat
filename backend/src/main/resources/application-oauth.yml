@@ -17,7 +17,6 @@ spring:
             token-uri: https://kauth.kakao.com/oauth/token
             user-info-uri: https://kapi.kakao.com/v2/user/me
             user-name-attribute: id
-
 --- # test 설정
 spring:
   config:
@@ -28,8 +27,7 @@ spring:
       client:
         registration:
           kakao:
-            redirect-uri: http://j8d108.p.ssafy.io:8000/api/login/oauth2/code/kakao
-
+            redirect-uri: url/api/login/oauth2/code/kakao
 --- # dev 설정
 spring:
   config:
@@ -40,4 +38,4 @@ spring:
       client:
         registration:
           kakao:
-            redirect-uri: https://j8d108.p.ssafy.io/api/login/oauth2/code/kakao
+            redirect-uri: url/api/login/oauth2/code/kakao

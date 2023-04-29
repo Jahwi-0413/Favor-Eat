@@ -26,17 +26,14 @@ ResultLayoutProps) {
       }
 
       const url =
-        process.env.NODE_ENV === "production"
-          ? "https://j8d108.p.ssafy.io"
-          : "http://localhost:3000";
+        process.env.NODE_ENV === "production" ? "host-url" : "local-url";
 
       kakao.Share.sendDefault({
         objectType: "feed", // 카카오 링크 공유 여러 type들 중 feed라는 타입 -> 자세한 건 카카오에서 확인
         content: {
           title: "나는 으른 입맛일까?", // 인자값으로 받은 title
           description: "나의 입맛 연령 테스트 결과를 구경해보세요", // 인자값으로 받은 title
-          imageUrl:
-            "https://leechangmin-s3-bucket.s3.ap-northeast-2.amazonaws.com/FavorEat.png",
+          imageUrl: "png",
           link: {
             webUrl: url,
           },
