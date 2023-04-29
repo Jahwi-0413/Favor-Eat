@@ -26,6 +26,7 @@
 8. [ERD ](#ERD) <br/>
 9. [API 명세서](#API-명세서) <br/>
 10. [스케줄](#스케줄) <br/>
+11. 협업 툴
 
 <br /><br />
 
@@ -192,7 +193,7 @@
 
 <div style="display : flex; flex-direction : row; gap:10px;">
   <img src="./upload/06_main.gif" height=300px/>
-  <img src="./upload/06_main.png" height=100px />
+  <img src="./upload/06_main.png" height=300px />
 </div>
 
 ▲ 추천 받은 음식을 볼 수 있는 메인 페이지
@@ -357,3 +358,10 @@
 ## 스케줄
 
 ![OMZ_Schedule](./upload/OMZ_Schedule.PNG)
+
+## 협업 툴
+
+[노션](https://www.notion.so/Favoreat-d30b1e39ac6946a5a6a154995487f300) <br/>
+[기획](https://www.figma.com/file/iesYQbqBof0upcrLzQ7QD7/%ED%8A%B9%ED%99%94D108_OMZ?node-id=0%3A1&t=0WllcCnNe8GdiTmn-1) <br/>
+[와이어프레임](https://www.figma.com/file/yIvAsYh2FA8hD3NDnW3URW/%ED%8A%B9%ED%99%94D108_OMZ?node-id=0%3A1&t=mliF2RDvzPpoDC66-1) <br/>
+[디자인](https://www.figma.com/file/1PNIjJxYLe4GLdvhklaYEH/Untitled?node-id=0%3A1&t=frkT7wJ9shMk7ymz-1)
